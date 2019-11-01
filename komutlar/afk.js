@@ -4,10 +4,10 @@ const client = new Discord.Client();
 exports.run = (client, message) => {
   message.channel.send({embed: {
                 author: {
-                    name: "Afk",
+                    name: "Afkçık",
                     icon_url: "https://i.imgyukle.com/2018/05/07/V49QH.th.png"
                   },
-                description: "**:white_check_mark: Artik Afksin**"
+                description: "**:white_check_mark: Artık Afk değilsin.**"
               }});
 };
 
@@ -21,5 +21,5 @@ exports.conf = {
 exports.help = {
   name: 'afk',
   description: 'Değişiklikleri gösterir.',
-  usage: 'afk'
+  usage: 'afkçık'
 };
